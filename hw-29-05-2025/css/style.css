@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffffc0;
+    color: rgb(45, 45, 45);
+}
+
+h3, p {
+    margin-left: 50px;
+}
+
+.p {
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.first {
+    display: none;
+}
+
+.second {
+    background-color: blanchedalmond;
+    display: inline-block;
+}
+
+.third {
+    background-color:greenyellow;
+    display: inline;
+}
+
+
+
+.block {
+    display: block;
+}
+
+.pdd {
+    background-color: blanchedalmond;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.mrg {
+    background-color: greenyellow;
+    margin: 0 10px;
+    border: 1px dashed black;
+}
