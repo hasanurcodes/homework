@@ -24,3 +24,7 @@ Description - html tags 51-100 and html form + table
 Date - 25 May 2025 \
 Link - https://hasanurcodes.github.io/homework/hw-25-05-2025/ \
 Description - html element type and css practice
+
+Date - 29 May 2025 \
+Link - https://hasanurcodes.github.io/homework/hw-29-05-2025/ \
+Description - css display, padding and margin
