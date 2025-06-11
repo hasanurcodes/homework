@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>May 18 Boolean Attributes</title>
+  </head>
+  <body>
+    <div style="background-color: wheat">
+      <a style="padding-left: 50px" href="../html-boolean/index.html">HTML Boolean Attributes</a>
+      <a style="padding-left: 50px" href="../html-tags/index.html">HTML Tags</a>
+      <a style="padding-left: 50px" href="../html-style/index.html">HTML Style</a>
+    </div>
+
+    <h1>BOOLEAN ATTRIBUTES</h1>
+
+    <h2>autofocus</h2>
+    <textarea rows="3" cols="30" autofocus>Focuses on this element</textarea>
+
+    <h2>controls</h2>
+    <audio controls>
+      <source src="../../resources/audios/sound.mp3" type="audio/mpeg" />
+      Audio not supported
+    </audio>
+
+    <h2>muted</h2>
+    <audio controls muted>
+      <source src="../../resources/audios/sound.mp3" type="audio/mpeg" />
+      Audio not supported
+    </audio>
+
+    <h2>autoplay</h2>
+    <video controls autoplay height="360px">
+      <source src="../../resources/videos/salar-de-uyuni-480p.mp4" type="video/mp4" />
+      Video not supported
+    </video>
+
+    <h2>loop</h2>
+    <video controls loop height="360px">
+      <source src="../../resources/videos/salar-de-uyuni-480p.mp4" type="video/mp4" />
+      Video not supported
+    </video>
+
+    <h2>selected</h2>
+    <p>a value gets selected by default</p>
+    <select>
+      <option value="volvo">Volvo</option>
+      <option value="bmw">BMW</option>
+      <option value="audi" selected>Audi</option>
+    </select>
+
+    <h2>multiple</h2>
+    <p>press ctrl to select multiple options</p>
+    <select multiple>
+      <option value="volvo">Volvo</option>
+      <option value="saab">Saab</option>
+      <option value="opel">Opel</option>
+      <option value="audi">Audi</option>
+    </select>
+
+    <h2>checked</h2>
+    <form>
+      <input type="checkbox" name="vehicle" value="skateboard" checked /> I have a skateboard<br />
+    </form>
+
+    <h2>disabled</h2>
+    <form>
+      <input type="checkbox" name="vehicle" value="mountainboard" disabled /> I have a mountainboard<br />
+    </form>
+
+    <h2>open</h2>
+    <details open>
+      <summary>click me</summary>
+      <p>Changes default behavior to keep it open</p>
+      <p>Molestiae, explicavi diis censes honestatis aequitatem conveniunt careret praestabiliorem. Vendibiliora.</p>
+    </details>
+
+    <h2>required</h2>
+    <form>
+      <label for="fname">First name:</label>
+      <input type="text" id="fname" required /><br /><br />
+      <input type="submit" />
+    </form>
+
+    <h2>readonly</h2>
+    <form>
+      <label for="country">Country:</label>
+      <input type="text" id="country" value="Bangladesh" readonly /><br /><br />
+    </form>
+
+    <h2>reversed</h2>
+    <ol reversed>
+      <li>Tea</li>
+      <li>Coffee</li>
+      <li>Milk</li>
+    </ol>
+  </body>
+</html>

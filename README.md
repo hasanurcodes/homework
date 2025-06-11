@@ -2,33 +2,33 @@
 root - https://hasanurcodes.github.io/homework/ 
 
 Date - 08 May 2025 \
-Link - https://hasanurcodes.github.io/homework/hw-08-05-2025/ \
+Link - https://hasanurcodes.github.io/homework/hw-2025-05-08/ \
 Description - simple html template
 
 Date - 11 May 2025 \
-Link - https://hasanurcodes.github.io/homework/hw-11-05-2025/ \
+Link - https://hasanurcodes.github.io/homework/hw-2025-05-11/ \
 Description - simple html page with heading, paragraph and image tags
 
 Date - 15 May 2025 \
-Link - https://hasanurcodes.github.io/homework/hw-15-05-2025/ \
+Link - https://hasanurcodes.github.io/homework/hw-2025-05-15/ \
 Description - html media tags and hyperlinking
 
 Date - 18 May 2025 \
-Link - https://hasanurcodes.github.io/homework/hw-18-05-2025/ \
+Link - https://hasanurcodes.github.io/homework/hw-2025-05-18/ \
 Description - html boolean attributes, html tags 1-50 and html styling with css
 
 Date - 22 May 2025 \
-Link - https://hasanurcodes.github.io/homework/hw-22-05-2025/ \
+Link - https://hasanurcodes.github.io/homework/hw-2025-05-22/ \
 Description - html tags 51-100 and html form + table
 
 Date - 25 May 2025 \
-Link - https://hasanurcodes.github.io/homework/hw-25-05-2025/ \
+Link - https://hasanurcodes.github.io/homework/hw-2025-05-25/ \
 Description - html element type and css practice
 
 Date - 29 May 2025 \
-Link - https://hasanurcodes.github.io/homework/hw-29-05-2025/ \
+Link - https://hasanurcodes.github.io/homework/hw-2025-05-29/ \
 Description - css display, padding and margin
 
 Date - 01 June 2025 \
-Link - https://hasanurcodes.github.io/homework/hw-01-06-2025/ \
+Link - https://hasanurcodes.github.io/homework/hw-2025-06-01/ \
 Description - html layout and css practice
