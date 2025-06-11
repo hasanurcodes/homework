@@ -28,3 +28,7 @@ Description - html element type and css practice
 Date - 29 May 2025 \
 Link - https://hasanurcodes.github.io/homework/hw-29-05-2025/ \
 Description - css display, padding and margin
+
+Date - 01 June 2025 \
+Link - https://hasanurcodes.github.io/homework/hw-01-06-2025/ \
+Description - html layout and css practice
