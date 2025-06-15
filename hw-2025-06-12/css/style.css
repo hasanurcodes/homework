@@ -167,16 +167,9 @@ header {
 }
 
 .container3 {
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
     overflow: hidden;
-}
-
-.parts {
-    float: left;
-    width: 25%;
-    padding: 10px;
-    margin: 0 30px;
 }
 
 .green {
@@ -189,6 +182,17 @@ header {
     background-color: var(--pink);
 }
 
+.parts {
+    float: left;
+    width: 25%;
+    margin: 0 33px;
+    padding: 30px;
+}
+
+.parts img {
+    width: 100%;
+}
+
 .parts p {
     line-height: 24px;
 }
@@ -198,13 +202,14 @@ header {
     background-color: var(--sblue);
     height: 50px;
     text-align: center;
+    margin: 0;
 }
 
 .footer p {
     display: inline-block;
     color: white;
     font-size: 14px;
-    margin: 18px auto;
+    margin: 17px auto;
 }
 
 .c_name {
