@@ -163,13 +163,13 @@ header {
 /* success end */
 /* feature start */
 .feature {
-    margin: 60px 0;
+    margin: 50px 0;
 }
 
 .container3 {
+    overflow: hidden;
     width: 60%;
     margin: 0 auto;
-    overflow: hidden;
 }
 
 .green {
@@ -185,12 +185,13 @@ header {
 .parts {
     float: left;
     width: 25%;
-    margin: 0 33px;
-    padding: 30px;
+    padding: 20px;
+    margin: 0 26px;
 }
 
 .parts img {
-    width: 100%;
+    width: 300px;
+    height: 200px;
 }
 
 .parts p {
