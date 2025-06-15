@@ -32,3 +32,7 @@ Description - css display, padding and margin
 Date - 01 June 2025 \
 Link - https://hasanurcodes.github.io/homework/hw-2025-06-01/ \
 Description - html layout and css practice
+
+Date - 12 June 2025 \
+Link - https://hasanurcodes.github.io/homework/hw-2025-06-12/ \
+Description - image to html
