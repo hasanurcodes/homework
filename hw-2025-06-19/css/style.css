@@ -1,0 +1,111 @@
+/* font faces */
+@font-face {
+    font-family: 'playfair-display';
+    src: url("../../resources/fonts/playfair-display/PlayfairDisplay-Regular.otf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'playfair-display';
+    src: url("../../resources/fonts/playfair-display/PlayfairDisplay-Italic.otf") format("opentype");
+    font-style: italic;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'playfair-display';
+    src: url("../../resources/fonts/playfair-display/PlayfairDisplay-Bold.otf") format("opentype");
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'playfair-display';
+    src: url("../../resources/fonts/playfair-display/PlayfairDisplay-Black.otf") format("opentype");
+    font-style: normal;
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'inconsolata';
+    src: url("../../resources/fonts/inconsolata/Inconsolata.otf") format("opentype");
+    font-style: normal;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'ubuntu';
+    src: url("../../resources/fonts/ubuntu/Ubuntu-L.ttf") format("opentype");
+    font-style: normal;
+    font-weight: 300;
+}
+
+/* Variables */
+:root {
+    --black: #000000;
+    --gray: #626262;
+}
+
+/* general */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'playfair-display', serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--gray);
+}
+
+/* header */
+header{}
+
+.container {
+    border: 1px solid black;
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.logo {
+    border: 1px solid red;
+    width: 10%;
+    float: left;
+}
+
+.logo a {}
+
+.logo a img {
+    width: 100%;
+}
+
+.menu {
+    border: 1px solid red;
+    width: 60%;
+    float: right;
+}
+
+.menu ul {
+    list-style: none;
+    float: right;
+}
+
+.menu ul li {
+    float: left;
+}
+
+.menu ul li a {
+    display: inline-block;
+    padding: 0 45px;
+    color: var(--gray);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.menu ul li a:hover {}
+
+.menu ul li:last-child a {}

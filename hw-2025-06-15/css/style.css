@@ -1,0 +1,13 @@
+
+@font-face {
+    font-family: 'inconsolata';
+    src: url("../../resources/fonts/inconsolata/Inconsolata.otf") format("opentype");
+    font-style: normal;
+    font-weight: 300;
+}
+
+h1 {
+    font-family: 'inconsolata';
+    font-synthesis: none;
+    letter-spacing: 5px;
+}
