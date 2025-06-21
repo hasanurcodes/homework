@@ -36,3 +36,11 @@ Description - html layout and css practice
 Date - 12 June 2025 \
 Link - https://hasanurcodes.github.io/homework/hw-2025-06-12/ \
 Description - image to html
+
+Date - 15 June 2025 \
+Link - https://hasanurcodes.github.io/homework/hw-2025-06-15/ \
+Description - external font setup and introduction to psd to html
+
+Date - 19 June 2025 \
+Link - https://hasanurcodes.github.io/homework/hw-2025-06-19/ \
+Description - psd to html day 02
