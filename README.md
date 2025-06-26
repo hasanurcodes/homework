@@ -44,3 +44,7 @@ Description - external font setup and introduction to psd to html
 Date - 19 June 2025 \
 Link - https://hasanurcodes.github.io/homework/hw-2025-06-19/ \
 Description - psd to html day 02
+
+Date - 22 June 2025 \
+Link - https://hasanurcodes.github.io/homework/hw-2025-06-22/ \
+Description - psd to html day 03
