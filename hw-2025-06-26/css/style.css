@@ -1,0 +1,287 @@
+
+/* Variables start */
+:root {
+    --black: #000000;
+    --gray: #626262;
+    --bg-gray: #F0F0F0;
+}
+/* Variables end */
+
+/* common css start */
+/* * { margin: 0; padding: 0; box-sizing: border-box; } */
+
+body {
+    margin: 0;
+    font-family: "Playfair Display", serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--gray);
+}
+/* common css end */
+
+/* header start*/
+header{
+    padding: 30px 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.logo {
+    margin-top: 8px;
+    width: 10%;
+    float: left;
+}
+
+.logo a {}
+
+.logo a img {
+    width: 100%;
+    margin: auto 0;
+}
+
+.menu {
+    width: 60%;
+    float: right;
+}
+
+.menu ul {
+    float: right;
+}
+
+.menu ul li {
+    float: left;
+    list-style: none;
+}
+
+.menu ul li a {
+    display: inline-block;
+    margin: 0 45px;
+    color: var(--gray);
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    transition: 0.33s linear;
+}
+
+.menu ul li:last-child a {
+    margin-right: 0;
+}
+
+.menu ul li a:hover {
+    border-bottom: 1px solid var(--gray);
+}
+/* header end */
+
+/* banner start */
+.banner {}
+
+.banner-image {}
+
+.banner-image img {
+    width: 100%;
+}
+/* banner end */
+
+
+/* gateway start */
+.gateway {
+    padding: 100px 0 20px;
+}
+
+.container2 {
+    margin: 0 auto;
+    width: 60%;
+    overflow: hidden;
+}
+
+.g_content {}
+
+.c_light {
+    margin: 0;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.c_title {
+    margin: 15px 0 25px;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.c_text {
+    margin: 0;
+    line-height: 24px;
+}
+
+.g_link {
+    margin-top: 45px;
+    display: inline-block;
+    color: var(--gray);
+    text-decoration: none;
+}
+
+
+/* blog */
+.blog {
+    margin-bottom: 80px;
+}
+
+.sb_item {
+    margin-top: 80px;
+    width: 47%;
+    float: left;
+}
+
+.sb_item:nth-child(even) {
+    margin-left: 6%;
+}
+
+.sb_img {
+    margin-bottom: 20px;
+}
+
+.sb_img img {
+    width: 100%;
+}
+/* gateway end */
+
+
+/* newsletter start */
+.newsletter {
+    background-color: var(--bg-gray);
+    padding: 70px 0;
+}
+
+.signup {
+    text-align: center;
+}
+
+.s_h1 {
+    margin-top: 0;
+    margin-bottom: 70px;
+    font-size: 30px;
+    color: var(--black);
+}
+
+.s_form {
+    position: relative;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.s_form input {
+    width: 340px;
+    height: 45px;
+    padding-left: 5px;
+    padding-right: 45px;
+    border: none;
+    border-bottom: 1px solid var(--black);
+    background-color: transparent;
+    font-family: "Playfair Display", serif;
+    font-size: 14px;
+    color: var(--gray);
+}
+
+.s_form input:focus {
+    outline: none;
+}
+
+.s_form button {
+    position: absolute;
+    top: 15px;
+    right: 0;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.s_form button:focus {
+    outline: none;
+}
+
+.s_form button img {
+    font-size: 30px;
+}
+
+/* newsletter end */
+
+/* blog2 start */
+.blog2 {
+    padding-top: 20px;
+}
+
+.load {
+    padding: 100px 0 50px;
+    text-align: center;
+}
+
+.load button {
+    width: 160px;
+    height: 60px;
+    background-color: white;
+    border: 2px solid var(--gray);
+    font-family: "Playfair Display", serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--gray);
+    cursor: pointer;
+    transition: .33s linear;
+}
+
+.load button:hover {
+    background-color: var(--gray);
+    color: var(--bg-gray);
+}
+/* blog2 end */
+
+/* footer start */
+footer {
+    padding: 35px 0;
+    background-color: var(--bg-gray);
+}
+
+.footer-items {
+    margin: 0 10px;
+    text-decoration: none;
+    color: var(--black);
+    font-size: 14px;
+    font-weight: 700;
+    transition: .33s linear;
+    display: inline-block;
+    border-bottom: 1px solid transparent;
+    cursor: pointer;
+}
+
+.pages {
+    width: 40%;
+    float: left;
+}
+
+.pages a:first-child {
+    margin-left: 0;
+}
+
+.footer-items:hover {
+    border-bottom: 1px solid black;
+}
+
+.socials {
+    width: 40%;
+    float: right;
+}
+
+.social-items {
+    float: right;
+}
+
+.socials a:last-child {
+    margin-right: 0;
+}
+
+/* footer end */
