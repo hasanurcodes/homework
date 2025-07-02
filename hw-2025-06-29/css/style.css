@@ -1,21 +1,11 @@
 
-/* Variables start */
-:root {
-    --black: #000000;
-    --gray: #626262;
-    --bg-gray: #F0F0F0;
-}
-/* Variables end */
-
 /* common css start */
-/* * { margin: 0; padding: 0; box-sizing: border-box; } */
-
 body {
     margin: 0;
     font-family: "Playfair Display", serif;
     font-size: 16px;
     font-weight: 400;
-    color: var(--gray);
+    color: #626262;
 }
 /* common css end */
 
@@ -35,8 +25,6 @@ header{
     width: 10%;
     float: left;
 }
-
-/* .logo a {} */
 
 .logo a img {
     width: 100%;
@@ -60,7 +48,7 @@ header{
 .menu ul li a {
     display: inline-block;
     margin: 0 45px;
-    color: var(--gray);
+    color: #626262;
     text-decoration: none;
     text-transform: uppercase;
     border: 1px solid transparent;
@@ -72,15 +60,11 @@ header{
 }
 
 .menu ul li a:hover {
-    border-bottom: 1px solid var(--gray);
+    border-bottom: 1px solid #626262;
 }
 /* header end */
 
 /* banner start */
-/* .banner {} */
-
-/* .banner-image {} */
-
 .banner-image img {
     width: 100%;
 }
@@ -94,7 +78,7 @@ header{
 
 .container2 {
     margin: 0 auto;
-    width: 60%;
+    width: 80%;
     overflow: hidden;
 }
 
@@ -122,7 +106,7 @@ header{
 .g_link {
     margin-top: 45px;
     display: inline-block;
-    color: var(--gray);
+    color: #626262;
     text-decoration: none;
 }
 
@@ -154,7 +138,7 @@ header{
 
 /* newsletter start */
 .newsletter {
-    background-color: var(--bg-gray);
+    background-color: #F0F0F0;
     padding: 70px 0;
 }
 
@@ -166,7 +150,7 @@ header{
     margin-top: 0;
     margin-bottom: 70px;
     font-size: 30px;
-    color: var(--black);
+    color: #000000;
 }
 
 .s_form {
@@ -181,11 +165,11 @@ header{
     padding-left: 5px;
     padding-right: 45px;
     border: none;
-    border-bottom: 1px solid var(--black);
+    border-bottom: 1px solid #000000;
     background-color: transparent;
     font-family: "Playfair Display", serif;
     font-size: 14px;
-    color: var(--gray);
+    color: #626262;
 }
 
 .s_form input:focus {
@@ -225,31 +209,31 @@ header{
     width: 160px;
     height: 60px;
     background-color: white;
-    border: 2px solid var(--gray);
+    border: 2px solid #626262;
     font-family: "Playfair Display", serif;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 400;
-    color: var(--gray);
+    color: #626262;
     cursor: pointer;
     transition: .33s linear;
 }
 
 .load button:hover {
-    background-color: var(--gray);
-    color: var(--bg-gray);
+    background-color: #626262;
+    color: #F0F0F0;
 }
 /* blog2 end */
 
 /* footer start */
 footer {
     padding: 35px 0;
-    background-color: var(--bg-gray);
+    background-color: #F0F0F0;
 }
 
 .footer-items {
     margin: 0 10px;
     text-decoration: none;
-    color: var(--black);
+    color: #000000;
     font-size: 14px;
     font-weight: 700;
     transition: .33s linear;

@@ -52,3 +52,7 @@ Description - psd to html day 03
 Date - 26 June 2025 \
 Link - https://hasanurcodes.github.io/homework/hw-2025-06-26/ \
 Description - psd to html day 04
+
+Date - 29 June 2025 \
+Link - https://hasanurcodes.github.io/homework/hw-2025-06-29/ \
+Description - psd to html day 05
