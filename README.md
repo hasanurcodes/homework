@@ -68,3 +68,7 @@ Description - bootstrap 5 file setup
 Date - 17 July 2025 \
 Link - https://hasanurcodes.github.io/homework/hw-2025-07-17/ \
 Description - bootstrap 5 grid system
+
+Date - 20 July 2025 \
+Link - https://hasanurcodes.github.io/homework/hw-2025-07-20/ \
+Description - bootstrap 5 icons, font awsome and more
