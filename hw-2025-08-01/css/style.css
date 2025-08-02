@@ -1,0 +1,106 @@
+/* font family */
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+/* common start */
+:root {
+    --black     : #010101;
+    --dark      : #555555;
+    --gray      : #898989;
+    --dark-blue : #313841;
+    --yellow    : #fcdb00;
+}
+
+body {
+    font-family: "PT Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--gray);
+}
+/* common end */
+
+/* header start */
+header {
+    background-color: var(--yellow);
+    padding: 30px 0;
+}
+
+.c-nav {}
+
+.logo {}
+
+.menu {}
+
+.menu ul li a {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--black) !important;
+    padding: 0 50px !important;
+}
+
+.menu ul li:last-child a {
+    padding-right: 0 !important;
+}
+
+.menu ul li a:hover {
+    color: white !important;
+}
+/* header end */
+
+/* slider start */
+.slider {
+    background-color: var(--yellow);
+    padding-bottom: 100px;
+}
+
+.c-indicators {
+    bottom: -80px;
+}
+
+.c-indicators [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.s-text {
+    margin-top: 50px;
+}
+
+.s-text h1 {
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--black);
+}
+
+.s-text h2 {
+    margin: 20px 0;
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--dark-blue);
+}
+
+.s-text p {
+    margin-bottom: 35px;
+    color: var(--dark);
+}
+
+.s-icon {}
+
+.s-icon ul li {
+    margin-right: 30px !important;
+}
+
+.s-icon ul li i {
+    font-size: 42px;
+    color: var(--black);
+    transition: .3s linear;
+}
+
+.s-icon ul li i:hover {
+    transform: scale(.9);
+}
+
+.s-img {}
+
+.s-img img {}
+/* slider end */

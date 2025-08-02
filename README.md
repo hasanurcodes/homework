@@ -75,4 +75,16 @@ Description - bootstrap 5 icons, font awsome and more
 
 Date - 24 July 2025 \
 Link - https://hasanurcodes.github.io/homework/hw-2025-07-24/ \
-Description - bootstrap 5 icons, font awsome and more
+Description - bootstrap 5 15 components
+
+Date - 27 July 2025 \
+Link - https://hasanurcodes.github.io/homework/hw-2025-07-27/ \
+Description - figma to html
+
+Date - 31 July 2025 \
+Link - https://hasanurcodes.github.io/homework/hw-2025-07-31/ \
+Description - figma to html day 02
+
+Date - 01 August 2025 \
+Link - https://hasanurcodes.github.io/homework/hw-2025-08-01/ \
+Description - psd to bootstrap

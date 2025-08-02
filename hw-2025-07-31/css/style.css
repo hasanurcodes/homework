@@ -1,0 +1,76 @@
+
+/* font family */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* common css start */
+:root {
+    --black     : #000000;
+    --white     : #ffffff;
+    --green     : #21B573;
+    --red       : #FD511A;
+    --bg        : #defdef;
+
+    --poppins   : "Poppins", sans-serif;
+    --roboto    : "Roboto", sans-serif;
+}
+
+body {
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--black);
+}
+/* common css end */
+
+/* header start */
+header {
+    padding: 15px 0;
+    background-color: var(--bg);
+}
+
+.cnav {}
+
+.n-brand {}
+
+.logo {}
+
+.logo-h1 {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--black);
+}
+
+.menu {}
+
+.menu ul li a {
+    padding: 0 15px !important;
+    color: var(--black) !important;
+}
+
+.menu ul li a:hover {
+    color: var(--red) !important;
+}
+
+.btn-cm {
+    background-color: var(--green);
+    border-radius: 33px;
+    font-family: var(--roboto);
+    color: var(--white);
+}
+
+.btn-sign-in {
+    margin-left: 10px;
+    padding: 12px 28px;
+}
+
+.btn-cm:hover {
+    background-color: var(--red);
+    color: var(--white);
+}
+
+.btn-cm:active {
+    background-color: var(--red) !important;
+    color: var(--white) !important;
+}
+/* header end */
