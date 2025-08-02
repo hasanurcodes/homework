@@ -50,6 +50,22 @@
     .s-icon ul li i {
         font-size: 35px;
     }
+
+    /* feature start */
+    .feature {
+        padding-top: 50;
+        padding-bottom: 70;
+    }
+
+    .c-h1 {
+        margin-bottom: 10px;
+        font-size: 25px;
+    }
+
+    .c-p {
+        font-size: 17px;
+        line-height: 25px;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -104,6 +120,22 @@
     .s-icon ul li i {
         font-size: 35px;
     }
+
+    /* feature start */
+    .feature {
+        padding-top: 50;
+        padding-bottom: 70;
+    }
+
+    .c-h1 {
+        margin-bottom: 10px;
+        font-size: 25px;
+    }
+
+    .c-p {
+        font-size: 17px;
+        line-height: 25px;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -116,6 +148,12 @@
     .menu ul li a {
         padding: 10px 0 0 !important;
         text-align: right;
+    }
+
+    /* feature start */
+    .feature {
+        padding-top: 80;
+        padding-bottom: 100;
     }
 }
 

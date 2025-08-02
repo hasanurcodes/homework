@@ -104,3 +104,24 @@ header {
 
 .s-img img {}
 /* slider end */
+/* feature start */
+.feature {
+    padding-top: 100px;
+    padding-bottom: 120px;
+}
+
+.c-title {}
+
+.c-h1 {
+    margin-bottom: 15px;
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--black);
+}
+
+.c-p {
+    line-height: 28px;
+    font-size: 20px;
+    color: var(--dark-blue);
+}
+/* feature end */
