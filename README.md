@@ -92,3 +92,11 @@ Description - psd to bootstrap
 Date - 02 August 2025 \
 Link - https://hasanurcodes.github.io/homework/hw-2025-08-02/ \
 Description - bootstrap 5 custom layout and show hide
+
+Date - 03 August 2025 \
+Link - https://hasanurcodes.github.io/homework/hw-2025-08-03/ \
+Description - figma to html day 03
+
+Date - 04 August 2025 \
+Link - https://hasanurcodes.github.io/homework/hw-2025-08-04/ \
+Description - psd to bootstrap day 02
