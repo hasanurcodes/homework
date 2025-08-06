@@ -20,6 +20,31 @@
     .btn-sign-in {
         margin-left: 0;
     }
+
+    /* banner start */
+    .banner {
+        padding-bottom: 60px;
+    }
+
+    .b-text {
+        text-align: center;
+    }
+
+    .b-h1 {
+        margin: 10px 0 20px;
+        font-size: 35px;
+        line-height: 50px;
+    }
+
+    .b-p2 {
+        margin: 0;
+        line-height: 30px;
+    }
+
+    .b-img {
+        margin: 0 0 30px;
+    }
+    /* banner end */
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -47,6 +72,10 @@
     }
 
     /* banner start */
+    .banner {
+        padding-bottom: 60px;
+    }
+
     .b-text {
         text-align: center;
     }

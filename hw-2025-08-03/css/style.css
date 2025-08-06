@@ -9,7 +9,7 @@
     --white     : #ffffff;
     --green     : #21B573;
     --red       : #FD511A;
-    --bg        : #defdef;
+    --bg        : #d7ffd7;
 
     --poppins   : "Poppins", sans-serif;
     --roboto    : "Roboto", sans-serif;
@@ -78,6 +78,7 @@ header {
 /* banner start */
 .banner {
     background-color: var(--bg);
+    padding-bottom: 65px;
 }
 
 .b-text {}
@@ -102,7 +103,7 @@ header {
     line-height: 36px;
 }
 
-.b-get {
+.btn-get {
     margin-top: 15px;
     padding: 12px 36px;
 }
