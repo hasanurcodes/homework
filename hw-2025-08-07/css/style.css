@@ -200,6 +200,7 @@ header {
 .c-stats p {
     margin-bottom: 0;
     display: inline-block;
+    font-size: 12px;
     font-weight: 500;
     color: var(--gray);
 }
