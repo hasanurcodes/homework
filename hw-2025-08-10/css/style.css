@@ -1,0 +1,207 @@
+
+/* font family */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* common css start */
+:root {
+    --black     : #000000;
+    --black-2   : #0000001A;
+    --gray      : #585859;
+    --white     : #ffffff;
+    --green     : #21B573;
+    --red       : #FD511A;
+    --bg        : #d7ffd7;
+
+    --poppins   : "Poppins", sans-serif;
+    --roboto    : "Roboto", sans-serif;
+}
+
+body {
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--black);
+}
+
+.pb-100 {
+    padding-bottom: 100px;
+}
+
+.pb-60 {
+    padding-bottom: 60px;
+}
+/* common css end */
+
+/* header start */
+header {
+    padding: 15px 0;
+    background-color: var(--bg);
+}
+
+.cnav {}
+
+.n-brand {}
+
+.logo {}
+
+.logo-h1 {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--black);
+}
+
+.menu {}
+
+.menu ul li a {
+    padding: 0 15px !important;
+    color: var(--black) !important;
+}
+
+.menu ul li a:hover {
+    color: var(--red) !important;
+}
+
+.btn-cm {
+    background-color: var(--green);
+    border-radius: 33px;
+    font-family: var(--roboto);
+    color: var(--white);
+}
+
+.btn-sign-in {
+    margin-left: 10px;
+    padding: 12px 28px;
+}
+
+.btn-cm:hover {
+    background-color: var(--red);
+    color: var(--white);
+}
+
+.btn-cm:active {
+    background-color: var(--red) !important;
+    color: var(--white) !important;
+}
+/* header end */
+
+/* banner start */
+.banner {
+    background-color: var(--bg);
+    padding-bottom: 65px;
+}
+
+.b-text {}
+
+.b-p1 {
+    color: var(--red);
+}
+
+.b-h1 {
+    margin: 10px 105px 20px 0;
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--black);
+    line-height: 70px;
+}
+
+.b-h1 span {
+    color: var(--green);
+}
+
+.b-p2 {
+    line-height: 36px;
+}
+
+.btn-get {
+    margin-top: 15px;
+    padding: 12px 36px;
+}
+
+.b-img {}
+/* banner end */
+
+/* feature start */
+.feature {}
+
+.f-item {
+    margin: 40px 0 0;
+    padding: 55px 0 50px;
+    background-color: var(--bg);
+    border-radius: 10px;
+}
+
+.f-img {
+    width: 75px;
+    height: 80px;
+}
+
+.f-h2 {
+    margin: 20px 0 0;
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--black);
+}
+
+.f-p {}
+
+.f-item:hover {
+    background-color: var(--white);
+    box-shadow: 0 20px 40px 0 var(--black-2);
+}
+/* feature end */
+
+/* course start */
+.course {}
+
+.c-text {}
+
+.c-h1 {}
+
+.c-item {
+    padding: 25px 15px;
+    border-radius: 18px;
+    box-shadow: 0 10px 40px 0 var(--black-2);
+}
+
+.c-img {}
+
+.c-h2 {
+    margin: 15px 0 10px;
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--black);
+}
+
+.c-p {
+    margin: 0;
+    color: var(--gray);
+}
+
+.btn-buy {
+    margin: 20px 0 25px;
+    padding: 8px 28px;
+    font-family: var(--roboto);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--white);
+}
+
+.c-stats {
+    width: fit-content;
+    display: inline-block;
+}
+
+.c-stats img {
+    width: 20px;
+    height: 20px;
+}
+
+.c-stats p {
+    margin-bottom: 0;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--gray);
+}
+/* course end */
