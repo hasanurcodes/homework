@@ -154,54 +154,52 @@ header {
 /* course start */
 .course {}
 
-.c-text {}
+.c-title {}
 
-.c-h1 {}
+.c-title h1 {
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--black);
+}
 
 .c-item {
-    padding: 25px 15px;
+    margin: 60px 0 0;
+    padding: 25px 20px 30px;
     border-radius: 18px;
     box-shadow: 0 10px 40px 0 var(--black-2);
 }
 
 .c-img {}
 
+.c-img img {
+    border-radius: 11px;
+}
+
 .c-h2 {
-    margin: 15px 0 10px;
-    font-size: 24px;
+    margin: 20px 0 5px;
+    font-style: 24px;
     font-weight: 500;
     color: var(--black);
 }
 
-.c-p {
-    margin: 0;
-    color: var(--gray);
-}
+.c-p {}
 
-.btn-buy {
-    margin: 20px 0 25px;
+.c-btn {
+    margin: 20px 0 35px;
     padding: 8px 28px;
-    font-family: var(--roboto);
-    font-size: 16px;
-    font-weight: 400;
-    color: var(--white);
 }
 
-.c-stats {
-    width: fit-content;
-    display: inline-block;
+.c-footer {}
+
+.c-left {}
+
+.c-right {}
+
+.c-left img, .c-right img {
+    
 }
 
-.c-stats img {
-    width: 20px;
-    height: 20px;
-}
-
-.c-stats p {
-    margin-bottom: 0;
-    display: inline-block;
-    font-size: 12px;
+.c-left span, .c-right span {
     font-weight: 500;
-    color: var(--gray);
 }
 /* course end */

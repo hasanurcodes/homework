@@ -66,18 +66,24 @@
     /* feature end */
 
     /* course start */
-    .pb-60 {
-        padding-bottom: 0px;
+    .c-title h1 {
+        font-size: 25px;
     }
 
     .c-item {
-        margin-top: 20px;
-        border-radius: 15px;
+        margin: 30px 0px 0px;
     }
 
     .c-h2 {
-        margin: 10px 0 5px;
-        font-size: 20px;
+        font-size: 22px;
+    }
+
+    .c-left img, .c-right img {
+        width: 18px;
+    }
+
+    .c-left span, .c-right span {
+        font-size: 14px;
     }
     /* course end */
 }
@@ -151,19 +157,16 @@
     /* feature end */
 
     /* course start */
-    .pb-60 {
-        padding-bottom: 20px;
+    .c-title h1 {
+        font-size: 25px;
     }
 
     .c-item {
-        margin-top: 20px;
-        padding: 15px 10px;
-        border-radius: 15px;
+        margin: 30px 50px 0px;
     }
 
     .c-h2 {
-        margin: 10px 0 5px;
-        font-size: 20px;
+        font-size: 22px;
     }
     /* course end */
 }
@@ -212,12 +215,12 @@
     /* feature end */
 
     /* course start */
-    .pb-60 {
-        padding-bottom: 40px;
+    .c-title h1 {
+        font-size: 30px;
     }
 
     .c-item {
-        margin-top: 20px;
+        margin: 40px 140px 0px;
     }
     /* course end */
 }
@@ -229,6 +232,20 @@
         margin: 10px 45px 20px 0;
     }
     /* banner end */
+
+    /* course start */
+    .c-item {
+        padding: 20px 15px 25px;
+    }
+
+    .c-left img, .c-right img {
+        width: 20px;
+    }
+
+    .c-left span, .c-right span {
+        font-size: 15px;
+    }
+    /* course end */
 }
 
 /* X-Large devices (large desktops, 1200px and up) */
