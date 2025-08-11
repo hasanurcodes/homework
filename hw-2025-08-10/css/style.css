@@ -12,6 +12,7 @@
     --green     : #21B573;
     --red       : #FD511A;
     --bg        : #d7ffd7;
+    --bg-2      : #282531;
 
     --poppins   : "Poppins", sans-serif;
     --roboto    : "Roboto", sans-serif;
@@ -203,3 +204,75 @@ header {
     font-weight: 500;
 }
 /* course end */
+
+/* testimonial start */
+.t-item {
+    margin-top: 60px;
+}
+
+.t-img {}
+
+.t-img img {
+    width: 100%;
+}
+
+.t-text {}
+
+.t-text p {}
+/* testimonial end */
+
+/* footer top start */
+.footer-top {
+    padding: 55px 0 55px;
+    background-color: var(--bg-2);
+}
+
+.f-details {
+    padding-right: 120px;
+}
+
+.f-details p {
+    color: var(--white);
+    line-height: 30px;
+}
+
+.f-links {}
+
+.f-links h2 {
+    margin-bottom: 8px;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--white);
+    line-height: 30px;
+}
+
+.f-links ul {
+    margin-bottom: 0;
+}
+
+.f-links ul li {
+    margin-bottom: 8px;
+}
+
+.f-links ul li a {
+    color: var(--white);
+    text-decoration: none;
+}
+/* footer top end */
+
+/* footer start */
+footer {
+    padding: 20px 0 30px;
+    background-color: var(--bg-2);
+}
+
+footer p {
+    color: var(--white);
+    line-height: 30px;
+}
+
+footer p a {
+    color: var(--white);
+    text-decoration: none;
+}
+/* footer end */
