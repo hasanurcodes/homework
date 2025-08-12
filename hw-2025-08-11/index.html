@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Nipro Agency</title>
+    <!-- CSS LINKS -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <!-- ICON LINKS -->
+    <link rel="stylesheet" href="fontawsome/css/all.min.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header">
+      <div class="container">
+        <div class="row">
+          <!-- navbar -->
+          <nav class="navbar navbar-expand-lg nav-container">
+            <div class="container-fluid">
+              <!-- logo -->
+              <img class="line-one" src="../resources/images/nipro/line-35px.png" alt="nipro" />
+              <a class="navbar-brand logo" href="#">Nipro Agency</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-c" aria-controls="nav-c" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <!-- menu -->
+              <div class="collapse navbar-collapse menu" id="nav-c">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active py-0" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link py-0" href="#">Service</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link py-0" href="#">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link py-0" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link py-0" href="#">Contact</a>
+                  </li>
+                </ul>
+                <form action="index.html" class="d-flex search" role="search">
+                  <input class="form-control me-2 search-input" type="search" placeholder="Search" aria-label="Search" />
+                  <button class="search-btn" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <!-- slider -->
+    <section class="slider">
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <!-- indicators -->
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <!-- inner -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../resources/images/nipro/slider-bg.png" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block container c-caption">
+              <h1 class="slider-title">We Have Talented Team</h1>
+              <p class="slider-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. hello Lorem Ipsum has been the industry's stanard dummy text ever since the  hello  bossLorem Ipsum is simply dummy text of the printing</p>
+              <a href="#" class="slider-link">
+                <span>Learn More</span>
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- JS LINKS -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
